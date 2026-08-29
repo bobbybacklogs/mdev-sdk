@@ -2,11 +2,10 @@
 
 [![npm version](https://img.shields.io/npm/v/mdev-sdk)](https://www.npmjs.com/package/mdev-sdk)
 [![npm downloads](https://img.shields.io/npm/dm/mdev-sdk)](https://www.npmjs.com/package/mdev-sdk)
-[![license](https://img.shields.io/npm/l/mdev-sdk)](https://github.com/your-org/mdev-sdk/blob/main/LICENSE)
+[![license](https://img.shields.io/npm/l/mdev-sdk)](https://github.com/bobbybacklogs/mdev-sdk/blob/main/LICENSE)
 [![node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
 
-> Badges show "not found" until the package is published to npm — that's
-> expected.
+> npm badges reflect the published package on the registry.
 
 A zero-dependency, strictly-typed TypeScript SDK for the [models.dev](https://models.dev)
 public API — the open catalog of AI providers and models maintained by the

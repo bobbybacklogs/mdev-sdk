@@ -1,6 +1,6 @@
 {
   "name": "mdev-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zero-dependency TypeScript SDK for the models.dev public API: providers, models, pricing, and metadata, with an offline snapshot mode and a CLI.",
   "type": "module",
   "sideEffects": false,
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/mdev-sdk.git"
+    "url": "git+https://github.com/bobbybacklogs/mdev-sdk.git"
   },
-  "homepage": "https://github.com/your-org/mdev-sdk#readme",
+  "homepage": "https://github.com/bobbybacklogs/mdev-sdk#readme",
   "bugs": {
-    "url": "https://github.com/your-org/mdev-sdk/issues"
+    "url": "https://github.com/bobbybacklogs/mdev-sdk/issues"
   },
   "publishConfig": {
     "access": "public"
