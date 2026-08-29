@@ -1,0 +1,66 @@
+{
+  "name": "mdev-sdk",
+  "version": "0.1.0",
+  "description": "Zero-dependency TypeScript SDK for the models.dev public API: providers, models, pricing, and metadata, with an offline snapshot mode and a CLI.",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/mdev-sdk.git"
+  },
+  "homepage": "https://github.com/your-org/mdev-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/your-org/mdev-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./snapshot": {
+      "types": "./dist/snapshot.d.ts",
+      "import": "./dist/snapshot.js"
+    }
+  },
+  "bin": {
+    "modelsdev": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test \"test/**/*.test.ts\"",
+    "snapshot": "node --import tsx src/snapshot-script.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "models.dev",
+    "mdev-sdk",
+    "llm",
+    "ai",
+    "models",
+    "catalog",
+    "pricing",
+    "openai",
+    "anthropic",
+    "sdk"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
